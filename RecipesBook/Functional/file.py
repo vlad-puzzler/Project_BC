@@ -9,7 +9,7 @@ class File:
         self.extension = file_extension
 
     def open_file(self):
-        with open(f"{FILE_FOLDER}{self.file_name}.{self.file_extension}") as f:
+        with open(f"data/{self.file_name}.{self.file_extension}") as f:
             return list(csv.DictReader(f))
 
     def write(self, delishes_list):
@@ -22,5 +22,5 @@ class File:
 
 def get_delishes_list(file_name, file_extension="csv"):
     file_manager = File(file_name=file_name, file_extension=file_extension)
-    delishes_list = file_manager.read()
+    delishes_list = file_manager.open_file()
     return delishes_list

@@ -21,7 +21,7 @@ class Recipe:
             raise ValueError(f'Title can not be less 2 words!')
         return title
 
-    def search(self, title, cuisine, for_how_much_person):
+    def search(self, title=None, cuisine=None, for_how_much_person=None):
         pass
 
     def to_dict(self):
