@@ -9,7 +9,8 @@ def main(input_choice):
     if int(input_choice) == 1:
         file_name = "delishes"
         delishes_list = get_delishes_list(file_name, file_extension="csv")
-        print(delishes_list)
+        for i in delishes_list:
+            print(i)
 
     # contact_list.sort(key=lambda contact: (contact["first_name"], contact["second_name"]))
     # contact_list = sorted(contact_list, key=lambda contact: contact["first_name"], reverse=True)

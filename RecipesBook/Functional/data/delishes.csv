@@ -1,3 +1,4 @@
-borsch;ukrainian;unknown;500;4;cabbage
-pampushka;ukrainian;unknown;1200;4;flour
-pizza;italian;some sicilian guy;750;2;flour
+Title,Cuisine,First_prepare,Total_kal,For_how_much_person,Main_ingridient
+borsch,ukrainian,unknown,500,4,cabbage
+pampushka,ukrainian,unknown,1200,4,flour
+pizza,italian,some sicilian guy,750,2,flour
